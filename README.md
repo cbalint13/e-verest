@@ -8,7 +8,7 @@
 
   With the emerge of high quality opensource tools for FPGAs new opportunities are rising to build and discover better digital architectures. This stick is inteded as lowest cost tool for anyone who desire to explore & research the world of modern digital systems. It can be used to develop, test and benchmark fairly large digital designs, straight using a complete opensource toolchain end to end.
 
-  It can close the gap between emerging trend of high level generated systems (automatic reinforced exploration of arhitectures) and the lack of end to end toolchain ending on a real FPGA feedback.
+  It can close the gap between emerging trend of high level generated systems (automatic reinforced exploration of arhitectures) and the lack of end to end toolchain harvesting a real FPGA for final feedback.
 
   Let Here Be Dragons ! (Yetis are also welcome).
 
