@@ -1,9 +1,7 @@
 # e-verest
 **e**-**Ve**rsatile **Re**search **St**ick for peoples
 ![PCB](https://github.com/cbalint13/e-verest/raw/master/docs/images/e-VEREST-pcb.jpg)
-
 ![DIAG](https://github.com/cbalint13/e-verest/raw/master/docs/images/EVEREST-DIAG.png)
-![LOGO](https://github.com/cbalint13/e-verest/raw/master/docs/images/EVEREST-3D.png)
 
 ## Description
 
@@ -26,6 +24,8 @@
 * Full opensource HDL flow usig [Yosys](https://github.com/YosysHQ) suite
 
 Can be used in any USB from tip of fingers, no cables, no wires.
+
+![LOGO](https://github.com/cbalint13/e-verest/raw/master/docs/images/EVEREST-3D.png)
 
 ## Progress:
 * ```23-Apr-2020``` A batch of 50 PCB arrived. Thank you [WellPCB PTY LTD](https://www.wellpcb.com) !
