@@ -1,6 +1,6 @@
 # e-verest
 **e**-**Ve**rsatile **Re**search **St**ick for peoples
-![PCB](https://github.com/cbalint13/e-verest/raw/master/docs/images/e-VEREST-pcb.png)
+![PCB](https://github.com/cbalint13/e-verest/raw/master/docs/images/e-VEREST-pcb.jpg)
 
 ![DIAG](https://github.com/cbalint13/e-verest/raw/master/docs/images/EVEREST-DIAG.png)
 ![LOGO](https://github.com/cbalint13/e-verest/raw/master/docs/images/EVEREST-3D.png)
@@ -20,8 +20,8 @@
 
 * Small size **16x40mm** usb stick
 * Generous **85k LUT** **FPGA** logic space
-* Holds **1Gbyte DDR3** memory with **x16** access
-* USB3 **5Gbps/s** data access over **x32** independent FIFO
+* Holds **1Gbyte DDR3** memory with **x16** wide access
+* USB3 **5Gbps/s** data access over **x32** wide independent FIFO
 * USB2 outband (same usb port) permanent **JTAG** and **UART** independent access
 * Full opensource HDL flow usig [Yosys](https://github.com/YosysHQ) suite
 
