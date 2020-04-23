@@ -25,6 +25,7 @@
 
 Can be used in any USB from tip of fingers, no cables, no wires.
 
+![LOGO](https://github.com/cbalint13/e-verest/raw/master/docs/images/e-VEREST-single.jpg)
 ![LOGO](https://github.com/cbalint13/e-verest/raw/master/docs/images/EVEREST-3D.png)
 
 ## Progress:
