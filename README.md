@@ -1,12 +1,15 @@
 # e-verest
 **e**-**Ve**rsatile **Re**search **St**ick for peoples
+![PCB](https://github.com/cbalint13/e-verest/raw/master/docs/images/e-VEREST-pcb.png)
 
 ![DIAG](https://github.com/cbalint13/e-verest/raw/master/docs/images/EVEREST-DIAG.png)
 ![LOGO](https://github.com/cbalint13/e-verest/raw/master/docs/images/EVEREST-3D.png)
 
 ## Description
 
-  With the emerge of high quality opensource tools for FPGAs new opportunities are rising to build and discover better digital architectures. This stick is inteded as lowest cost tool for anyone who desire to explore & research the world of modern digital systems. It can be used to develop, test and benchmark fairly large digital designs, straight using a complete opensource toolchain end to end.
+  With the rising of high quality opensource tools for FPGAs new opportunities are emerging to discover and build better digital architectures.
+  This stick is inteded as lowest cost tool for anyone who desire to explore & research the world of modern digital systems.
+  It can be used to develop, test and benchmark fairly large digital designs, straight using a complete opensource toolchain end to end.
 
   It can close the gap between emerging trend of high level generated systems (automatic reinforced exploration of arhitectures) and the lack of end to end toolchain harvesting a real FPGA for final feedback.
 
@@ -23,6 +26,10 @@
 * Full opensource HDL flow usig [Yosys](https://github.com/YosysHQ) suite
 
 Can be used in any USB from tip of fingers, no cables, no wires.
+
+## Progress:
+* ```23-Apr-2020``` A batch of 50 PCB arrived. Thank you [WellPCB PTY LTD](https://www.wellpcb.com) !
+
 
 ## Project files
 * See [CircuitMaker](https://workspace.circuitmaker.com/Projects/Details/Cristian-Balint/e-VEREST) for complete sch & pcb (KiCAD coming soon)
