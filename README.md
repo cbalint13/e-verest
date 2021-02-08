@@ -31,7 +31,7 @@ Can be used in any USB from tip of fingers, no cables, no wires.
 ## Progress:
 * ```23-Apr-2020``` A batch of 50 PCB arrived. Thank you [WellPCB PTY LTD](https://www.wellpcb.com) !
 * ```20-Dec-2020``` Second iteraton of PCB has been done, schematics and pcb design is updated.
-* ```20-Ian-2021``` Announcing Open Library for Integer Machine Processing [OLIMP](https://github.com/cbalint13/OLIMP) having e-VEREST as demo board.
+* ```20-Jan-2021``` Announcing Open Library for Integer Machine Processing [OLIMP](https://github.com/cbalint13/OLIMP) having e-VEREST as demo board.
 
 
 ## Project files
