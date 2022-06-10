@@ -33,6 +33,7 @@ Can be used in any USB port right from the tips of fingers, no cables, no wires 
 * ```20-Dec-2020``` Second iteraton of PCB has been done, schematics and pcb design are updated.
 * ```20-Jan-2021``` Announcing [OLIMP](https://github.com/cbalint13/OLIMP) having e-VEREST as demo board.
 * ```17-Aug-2021``` Third iteration of PCB has been done, design is updated.
+* ```10-May-2022``` Due to severe global shortage ~~crowd source~~ batches aren't possible until >2023.
 
 
 ## Project files
