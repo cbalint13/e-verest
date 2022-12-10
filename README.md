@@ -1,5 +1,7 @@
-# e-verest
+<img src="docs/images/EVEREST-LOGO.png" width="200"/>
+
 **e**-**Ve**rsatile **Re**search **St**ick for peoples
+
 ![PCB](docs/images/e-VEREST-pcb.jpg)
 ![DIAG](docs/images/EVEREST-DIAG.png)
 
@@ -37,8 +39,9 @@ Can be used in any USB port right from the tips of fingers, no cables, no wires 
 
 
 ## Project files
+* Open Source Hardware <img src="docs/images/OSHW-LOGO.png" width="20"/>
+* Check [schematic](hardware/e-VEREST-v1_5.pdf) available as quick readable document.
 * See the [design files](hardware) available for Altium ®, CircuitMaker ®, KiCAD and Gerber format.
-* Check [schematic](hardware/e-VEREST-v1_5.pdf) available as quick readable format.
 * There is also an CircuitMaker ® [online version](https://circuitmaker.com/Projects/Details/Cristian-Balint/e-VEREST) available.
 * Software tools for managing the stick and examples coming soon (WiP)
 * There are plans for making batch of units via CrowdSupply campains (WiP).
