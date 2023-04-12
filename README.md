@@ -13,7 +13,7 @@
 
   It can close the gap between emerging trend of high level generated systems (automatic reinforced exploration of arhitectures) and the lack of end to end toolchain harvesting a real FPGA for final feedback.
 
-  Let Here Be Dragons ! (Yetis are also welcome).
+  Let Here Be Dragons !
 
 
 ## Specs:
@@ -37,6 +37,26 @@ Can be used in any USB port right from the tips of fingers, no cables, no wires 
 * ```17-Aug-2021``` Third iteration of PCB has been done, design is updated.
 * ```10-May-2022``` Due to severe global shortage ~~crowd source~~ batches aren't possible until >2023.
 
+```
+Booting..
+Press ENTER to continue..
+
+     __     _______ ____  _____ ____ _____
+   __\ \   / | ____|  _ \| ____/ ___|_   _|
+  / _ \ \ / /|  _| | |_) |  _| \___ \ | |
+ |  __/\ V / | |___|  _ <| |___ ___) || |
+  \___| \_/  |_____|_| \_|_____|____/ |_|
+
+Total BRAM memory: 32 KiB
+
+Select an action:
+
+   [e] Echo UART
+
+Command>
+```
+
+See [utils](/utils) for board peripherial tests and [i/o mappings (lpf file)](https://github.com/cbalint13/e-verest/blob/master/utils/test-firmware/brd/everest.lpf).
 
 ## Project files
 * Open Source Hardware <img src="docs/images/OSHW-LOGO.png" width="20"/>
@@ -56,3 +76,9 @@ Can be used in any USB port right from the tips of fingers, no cables, no wires 
 | Inner 3 | Power Plane | <img src="docs/images/layers/G3.png" alt="Inner Layer 3 Polygon" width="300" align="center"/>|
 | Inner 4 | GND Plane | <img src="docs/images/layers/G4.png" alt="Inner Layer 4 Polygons" width="300" align="center"/>|
 | Bottom |  Signal Layer | <img src="docs/images/layers/GBL.png" alt="Bottom Layer Polygon" width="300" align="center"/>|
+
+## Credits
+
+* Communities around [yosys](https://github.com/YosysHQ/yosys) / [nextpnr](https://github.com/YosysHQ/nextpnr)
+* The [OrangeCrab](https://github.com/orangecrab-fpga/orangecrab-hardware) board design by Greg Davill
+

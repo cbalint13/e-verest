@@ -1,0 +1,260 @@
+Warning: net 'clkin_32mhz' does not exist in design, ignoring clock constraint
+Info: constraining clock net 'fifo_ft_clk' to 100.00 MHz
+
+Info: Logic utilisation before packing:
+Info:     Total LUT4s:      2551/83640     3%
+Info:         logic LUTs:   1799/83640     2%
+Info:         carry LUTs:    560/83640     0%
+Info:           RAM LUTs:    128/10455     1%
+Info:          RAMW LUTs:     64/20910     0%
+
+Info:      Total DFFs:       710/83640     0%
+
+Info: Packing IOs..
+Info: pin 'uart_tx$tr_io' constrained to Bel 'X4/Y0/PIOB'.
+Info: pin 'uart_rx$tr_io' constrained to Bel 'X65/Y0/PIOB'.
+Info: pin 'fifo_ft_clk$tr_io' constrained to Bel 'X0/Y11/PIOB'.
+Info: Packing constants..
+Info: Packing carries...
+Info: Packing LUTs...
+Info: Packing LUT5-7s...
+Info: Packing FFs...
+Info:     481 FFs paired with LUTs.
+Info: Generating derived timing constraints...
+Info:     Input frequency of PLL 'pll_i' is constrained to 100.0 MHz
+Info:     Derived frequency constraint of 50.0 MHz for net clk_cpu
+Info: Promoting globals...
+Info:     promoting clock net clk_cpu to global network
+Info: Checksum: 0xabc60f5e
+
+Info: Annotating ports with timing budgets for target frequency 50.00 MHz
+Info: Checksum: 0x7a045755
+
+Info: Device utilisation:
+Info: 	          TRELLIS_IO:     3/  365     0%
+Info: 	                DCCA:     1/   56     1%
+Info: 	              DP16KD:    16/  208     7%
+Info: 	          MULT18X18D:     0/  156     0%
+Info: 	              ALU54B:     0/   78     0%
+Info: 	             EHXPLLL:     1/    4    25%
+Info: 	             EXTREFB:     0/    2     0%
+Info: 	                DCUA:     0/    2     0%
+Info: 	           PCSCLKDIV:     0/    2     0%
+Info: 	             IOLOGIC:     0/  224     0%
+Info: 	            SIOLOGIC:     0/  141     0%
+Info: 	                 GSR:     0/    1     0%
+Info: 	               JTAGG:     0/    1     0%
+Info: 	                OSCG:     0/    1     0%
+Info: 	               SEDGA:     0/    1     0%
+Info: 	                 DTR:     0/    1     0%
+Info: 	             USRMCLK:     0/    1     0%
+Info: 	             CLKDIVF:     0/    4     0%
+Info: 	           ECLKSYNCB:     0/   10     0%
+Info: 	             DLLDELD:     0/    8     0%
+Info: 	              DDRDLL:     0/    4     0%
+Info: 	             DQSBUFM:     0/   14     0%
+Info: 	     TRELLIS_ECLKBUF:     0/    8     0%
+Info: 	        ECLKBRIDGECS:     0/    2     0%
+Info: 	                DCSC:     0/    2     0%
+Info: 	          TRELLIS_FF:   710/83640     0%
+Info: 	        TRELLIS_COMB:  2631/83640     3%
+Info: 	        TRELLIS_RAMW:    32/10455     0%
+
+Info: Placed 4 cells based on constraints.
+Info: Creating initial analytic placement for 1640 cells, random placement wirelen = 208760.
+Info:     at initial placer iter 0, wirelen = 1122
+Info:     at initial placer iter 1, wirelen = 1100
+Info:     at initial placer iter 2, wirelen = 1114
+Info:     at initial placer iter 3, wirelen = 1109
+Info: Running main analytical placer, max placement attempts per cell = 1439904.
+Info:     at iteration #1, type ALL: wirelen solved = 1116, spread = 23031, legal = 23613; time = 0.06s
+Info:     at iteration #2, type ALL: wirelen solved = 1704, spread = 20361, legal = 22209; time = 0.06s
+Info:     at iteration #3, type ALL: wirelen solved = 2568, spread = 19259, legal = 20911; time = 0.05s
+Info:     at iteration #4, type ALL: wirelen solved = 3476, spread = 17866, legal = 19423; time = 0.05s
+Info:     at iteration #5, type ALL: wirelen solved = 4299, spread = 17373, legal = 19349; time = 0.05s
+Info:     at iteration #6, type ALL: wirelen solved = 5103, spread = 17254, legal = 19186; time = 0.05s
+Info:     at iteration #7, type ALL: wirelen solved = 5829, spread = 15823, legal = 17695; time = 0.05s
+Info:     at iteration #8, type ALL: wirelen solved = 6305, spread = 17188, legal = 17905; time = 0.05s
+Info:     at iteration #9, type ALL: wirelen solved = 7157, spread = 16818, legal = 17457; time = 0.05s
+Info:     at iteration #10, type ALL: wirelen solved = 7238, spread = 16540, legal = 17399; time = 0.05s
+Info:     at iteration #11, type ALL: wirelen solved = 7979, spread = 16345, legal = 17056; time = 0.05s
+Info:     at iteration #12, type ALL: wirelen solved = 7928, spread = 16318, legal = 16979; time = 0.05s
+Info:     at iteration #13, type ALL: wirelen solved = 8401, spread = 15993, legal = 16925; time = 0.05s
+Info:     at iteration #14, type ALL: wirelen solved = 8628, spread = 15702, legal = 16901; time = 0.05s
+Info:     at iteration #15, type ALL: wirelen solved = 8780, spread = 15835, legal = 16846; time = 0.05s
+Info:     at iteration #16, type ALL: wirelen solved = 9022, spread = 15922, legal = 16595; time = 0.05s
+Info:     at iteration #17, type ALL: wirelen solved = 9150, spread = 16201, legal = 16867; time = 0.05s
+Info:     at iteration #18, type ALL: wirelen solved = 9625, spread = 16113, legal = 16602; time = 0.05s
+Info:     at iteration #19, type ALL: wirelen solved = 9690, spread = 16436, legal = 17181; time = 0.05s
+Info:     at iteration #20, type ALL: wirelen solved = 9938, spread = 16400, legal = 17259; time = 0.05s
+Info:     at iteration #21, type ALL: wirelen solved = 10454, spread = 16309, legal = 16860; time = 0.05s
+Info: HeAP Placer Time: 1.57s
+Info:   of which solving equations: 0.87s
+Info:   of which spreading cells: 0.21s
+Info:   of which strict legalisation: 0.09s
+
+Info: Running simulated annealing placer for refinement.
+Info:   at iteration #1: temp = 0.000000, timing cost = 510, wirelen = 16595
+Info:   at iteration #5: temp = 0.000000, timing cost = 281, wirelen = 14939
+Info:   at iteration #10: temp = 0.000000, timing cost = 274, wirelen = 14360
+Info:   at iteration #15: temp = 0.000000, timing cost = 318, wirelen = 14145
+Info:   at iteration #20: temp = 0.000000, timing cost = 305, wirelen = 14078
+Info:   at iteration #20: temp = 0.000000, timing cost = 304, wirelen = 14080 
+Info: SA placement time 4.75s
+
+Info: Max frequency for clock '$glbnet$clk_cpu': 61.02 MHz (PASS at 50.00 MHz)
+
+Info: Max delay <async>                 -> posedge $glbnet$clk_cpu: 8.07 ns
+Info: Max delay posedge $glbnet$clk_cpu -> <async>                : 1.61 ns
+
+Info: Slack histogram:
+Info:  legend: * represents 4 endpoint(s)
+Info:          + represents [1,4) endpoint(s)
+Info: [  3612,   4394) |***+
+Info: [  4394,   5176) |****+
+Info: [  5176,   5958) |***+
+Info: [  5958,   6740) |****+
+Info: [  6740,   7522) |************ 
+Info: [  7522,   8304) |********************+
+Info: [  8304,   9086) |*********+
+Info: [  9086,   9868) |******************+
+Info: [  9868,  10650) |*************************+
+Info: [ 10650,  11432) |*******************************+
+Info: [ 11432,  12214) |************************************************ 
+Info: [ 12214,  12996) |****************************************************+
+Info: [ 12996,  13778) |********************************************+
+Info: [ 13778,  14560) |************************************+
+Info: [ 14560,  15342) |**************************************+
+Info: [ 15342,  16124) |************************************************************ 
+Info: [ 16124,  16906) |*********************************************+
+Info: [ 16906,  17688) |***************************************************+
+Info: [ 17688,  18470) |*****************************+
+Info: [ 18470,  19252) |**********+
+Info: Checksum: 0xbccc12bd
+Info: Routing globals...
+Info:     routing clock net $glbnet$clk_cpu using global 0
+
+Info: Routing..
+Info: Setting up routing queue.
+Info: Routing 10324 arcs.
+Info:            |   (re-)routed arcs  |   delta    | remaining|       time spent     |
+Info:    IterCnt |  w/ripup   wo/ripup |  w/r  wo/r |      arcs| batch(sec) total(sec)|
+Info:       1000 |      163        836 |  163   836 |      9556|       0.22       0.22|
+Info:       2000 |      311       1688 |  148   852 |      8794|       0.11       0.33|
+Info:       3000 |      540       2459 |  229   771 |      8152|       0.11       0.45|
+Info:       4000 |      769       3230 |  229   771 |      7519|       0.12       0.57|
+Info:       5000 |     1010       3989 |  241   759 |      6933|       0.13       0.70|
+Info:       6000 |     1307       4692 |  297   703 |      6361|       0.14       0.83|
+Info:       7000 |     1598       5401 |  291   709 |      5796|       0.13       0.97|
+Info:       8000 |     1930       6064 |  332   663 |      5297|       0.16       1.12|
+Info:       9000 |     2269       6708 |  339   644 |      4752|       0.15       1.27|
+Info:      10000 |     2604       7349 |  335   641 |      4226|       0.14       1.41|
+Info:      11000 |     2928       7982 |  324   633 |      3769|       0.14       1.55|
+Info:      12000 |     3285       8548 |  357   566 |      3359|       0.15       1.70|
+Info:      13000 |     3622       9130 |  337   582 |      2892|       0.15       1.85|
+Info:      14000 |     3980       9688 |  358   558 |      2430|       0.14       1.98|
+Info:      15000 |     4414      10216 |  434   528 |      2020|       0.17       2.15|
+Info:      16000 |     4874      10728 |  460   512 |      1744|       0.18       2.33|
+Info:      17000 |     5237      11312 |  363   584 |      1287|       0.14       2.47|
+Info:      18000 |     5453      12007 |  216   695 |       594|       0.09       2.56|
+Info:      18704 |     5528      12489 |   75   482 |         0|       0.04       2.61|
+Info: Routing complete.
+Info: Router1 time 2.61s
+Info: Checksum: 0xf2876649
+
+Info: Critical path report for clock '$glbnet$clk_cpu' (posedge -> posedge):
+Info: curr total
+Info:  5.6  5.6  Source ram.0.11.DOA1
+Info:  3.2  8.8    Net ram_rdata[23] budget 5.984000 ns (40,22) -> (18,5)
+Info:                Sink cpu.mem_rdata_PFUMX_Z_21_BLUT_LUT4_Z_B_LUT4_B_Z_PFUMX_BLUT_Z_L6MUX21_D0_Z_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z.C
+Info:                Defined in:
+Info:                  rtl/firmsoc.v:92.16-92.25
+Info:  0.4  9.2  Source cpu.mem_rdata_PFUMX_Z_21_BLUT_LUT4_Z_B_LUT4_B_Z_PFUMX_BLUT_Z_L6MUX21_D0_Z_L6MUX21_Z_D0_PFUMX_Z_BLUT_LUT4_Z.OFX
+Info:  0.0  9.2    Net cpu.mem_rdata_PFUMX_Z_21_BLUT_LUT4_Z_B_LUT4_B_Z_PFUMX_BLUT_Z_L6MUX21_D0_Z_L6MUX21_Z_D0 budget 0.000000 ns (18,5) -> (18,5)
+Info:                Sink cpu.mem_rdata_PFUMX_Z_21_BLUT_LUT4_Z_B_LUT4_B_Z_PFUMX_BLUT_Z_L6MUX21_D0_Z_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z.FXA
+Info:                Defined in:
+Info:                  /usr/bin/../share/yosys/ecp5/cells_map.v:141.34-141.36
+Info:  0.2  9.4  Source cpu.mem_rdata_PFUMX_Z_21_BLUT_LUT4_Z_B_LUT4_B_Z_PFUMX_BLUT_Z_L6MUX21_D0_Z_L6MUX21_Z_D1_PFUMX_Z_ALUT_LUT4_Z.OFX
+Info:  0.6 10.1    Net cpu.mem_rdata_PFUMX_Z_21_BLUT_LUT4_Z_B_LUT4_B_Z_PFUMX_BLUT_Z_L6MUX21_D0_Z[0] budget 1.994000 ns (18,5) -> (18,7)
+Info:                Sink cpu.mem_wstrb_TRELLIS_FF_Q_DI_LUT4_Z_C_LUT4_Z_A_L6MUX21_SD_Z_LUT4_A_Z_PFUMX_BLUT_Z_L6MUX21_D0_D1_PFUMX_Z_ALUT_LUT4_Z.M
+Info:                Defined in:
+Info:                  /usr/bin/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:  0.3 10.3  Source cpu.mem_wstrb_TRELLIS_FF_Q_DI_LUT4_Z_C_LUT4_Z_A_L6MUX21_SD_Z_LUT4_A_Z_PFUMX_BLUT_Z_L6MUX21_D0_D1_PFUMX_Z_ALUT_LUT4_Z.OFX
+Info:  1.1 11.5    Net cpu.mem_rdata_PFUMX_Z_21_BLUT_LUT4_Z_B_LUT4_B_Z_PFUMX_BLUT_Z_L6MUX21_D0_Z_PFUMX_C0_Z_L6MUX21_Z_10_SD[3] budget 1.994000 ns (18,7) -> (19,5)
+Info:                Sink cpu.mem_rdata_PFUMX_Z_21_BLUT_LUT4_Z_B_LUT4_B_Z_PFUMX_BLUT_Z_L6MUX21_D0_Z_PFUMX_C0_Z_L6MUX21_Z_9_D1_PFUMX_Z_BLUT_LUT4_Z.D
+Info:                Defined in:
+Info:                  /usr/bin/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:  0.4 11.9  Source cpu.mem_rdata_PFUMX_Z_21_BLUT_LUT4_Z_B_LUT4_B_Z_PFUMX_BLUT_Z_L6MUX21_D0_Z_PFUMX_C0_Z_L6MUX21_Z_9_D1_PFUMX_Z_BLUT_LUT4_Z.OFX
+Info:  0.0 11.9    Net cpu.mem_rdata_PFUMX_Z_21_BLUT_LUT4_Z_B_LUT4_B_Z_PFUMX_BLUT_Z_L6MUX21_D0_Z_PFUMX_C0_Z_L6MUX21_Z_9_D1 budget 0.000000 ns (19,5) -> (19,5)
+Info:                Sink cpu.mem_rdata_PFUMX_Z_21_BLUT_LUT4_Z_B_LUT4_B_Z_PFUMX_BLUT_Z_L6MUX21_D0_Z_PFUMX_C0_Z_L6MUX21_Z_9_D1_PFUMX_Z_ALUT_LUT4_Z.FXB
+Info:                Defined in:
+Info:                  /usr/bin/../share/yosys/ecp5/cells_map.v:141.38-141.40
+Info:  0.2 12.1  Source cpu.mem_rdata_PFUMX_Z_21_BLUT_LUT4_Z_B_LUT4_B_Z_PFUMX_BLUT_Z_L6MUX21_D0_Z_PFUMX_C0_Z_L6MUX21_Z_9_D1_PFUMX_Z_ALUT_LUT4_Z.OFX
+Info:  0.4 12.5    Net cpu.mem_rdata_PFUMX_Z_21_BLUT_LUT4_Z_B_LUT4_B_Z_PFUMX_BLUT_Z_L6MUX21_D0_Z_PFUMX_C0_Z[22] budget 2.493000 ns (19,5) -> (19,5)
+Info:                Sink cpu.reg_out_TRELLIS_FF_Q_25.M
+Info:                Defined in:
+Info:                  rtl/firmsoc.v:160.7-170.6
+Info:                  rtl/picorv32.v:1464.9-1891.16
+Info:                  rtl/picorv32.v:0.0-0.0
+Info:                  /usr/bin/../share/yosys/techmap.v:575.21-575.22
+Info:  0.0 12.5  Setup cpu.reg_out_TRELLIS_FF_Q_25.M
+Info: 7.1 ns logic, 5.4 ns routing
+
+Info: Critical path report for cross-domain path '<async>' -> 'posedge $glbnet$clk_cpu':
+Info: curr total
+Info:  0.0  0.0  Source uart_rx$tr_io.O
+Info:  3.0  3.0    Net uart_rx$TRELLIS_IO_IN budget 6.496000 ns (65,0) -> (22,2)
+Info:                Sink uart_rx_PFUMX_C0_BLUT_LUT4_Z.M
+Info:                Defined in:
+Info:                  rtl/firmsoc.v:30.11-30.18
+Info:  0.3  3.3  Source uart_rx_PFUMX_C0_BLUT_LUT4_Z.OFX
+Info:  0.4  3.6    Net uart_rx_PFUMX_C0_Z[4] budget 4.918000 ns (22,2) -> (22,2)
+Info:                Sink simpleuart.recv_state_TRELLIS_FF_Q_CE_PFUMX_Z_BLUT_LUT4_Z.M
+Info:                Defined in:
+Info:                  /usr/bin/../share/yosys/ecp5/cells_map.v:108.23-108.24
+Info:  0.3  3.9  Source simpleuart.recv_state_TRELLIS_FF_Q_CE_PFUMX_Z_BLUT_LUT4_Z.OFX
+Info:  0.6  4.5    Net simpleuart.recv_state_TRELLIS_FF_Q_CE budget 2.107000 ns (22,2) -> (23,2)
+Info:                Sink simpleuart.recv_state_TRELLIS_FF_Q_1.CE
+Info:  0.0  4.5  Setup simpleuart.recv_state_TRELLIS_FF_Q_1.CE
+Info: 0.5 ns logic, 4.0 ns routing
+
+Info: Critical path report for cross-domain path 'posedge $glbnet$clk_cpu' -> '<async>':
+Info: curr total
+Info:  0.5  0.5  Source uart_tx_TRELLIS_FF_Q.Q
+Info:  1.1  1.7    Net uart_tx$TRELLIS_IO_OUT budget 19.475000 ns (4,3) -> (4,0)
+Info:                Sink uart_tx$tr_io.I
+Info:                Defined in:
+Info:                  rtl/firmsoc.v:29.12-29.19
+Info: 0.5 ns logic, 1.1 ns routing
+
+Info: Max frequency for clock '$glbnet$clk_cpu': 80.00 MHz (PASS at 50.00 MHz)
+
+Info: Max delay <async>                 -> posedge $glbnet$clk_cpu: 4.51 ns
+Info: Max delay posedge $glbnet$clk_cpu -> <async>                : 1.66 ns
+
+Info: Slack histogram:
+Info:  legend: * represents 6 endpoint(s)
+Info:          + represents [1,6) endpoint(s)
+Info: [  7500,   8078) |***+
+Info: [  8078,   8656) |**+
+Info: [  8656,   9234) |+
+Info: [  9234,   9812) |***+
+Info: [  9812,  10390) |******+
+Info: [ 10390,  10968) |****+
+Info: [ 10968,  11546) |*********+
+Info: [ 11546,  12124) |*********+
+Info: [ 12124,  12702) |****************+
+Info: [ 12702,  13280) |****************+
+Info: [ 13280,  13858) |************************+
+Info: [ 13858,  14436) |*******************************+
+Info: [ 14436,  15014) |************+
+Info: [ 15014,  15592) |*********************************+
+Info: [ 15592,  16170) |**********************************************+
+Info: [ 16170,  16748) |*************************+
+Info: [ 16748,  17326) |*********************************************+
+Info: [ 17326,  17904) |************************************************************ 
+Info: [ 17904,  18482) |****************************** 
+Info: [ 18482,  19060) |****+
+1 warning, 0 errors
+
+Info: Program finished normally.
